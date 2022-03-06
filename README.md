@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### `npm install react-youtube`
+
+[https://www.npmjs.com/package/react-youtube] (https://github.com/tjallingt/react-youtube)
+
+### `npm i movie-trailer`
+
+[https://www.npmjs.com/package/movie-trailer] (https://github.com/lacymorrow/movie-trailer)
