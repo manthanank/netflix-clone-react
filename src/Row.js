@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from './axios';
-import YouTube from 'react-youtube';
-import movieTrailer from 'movie-trailer';
+import YouTube from "react-youtube";
+import movieTrailer from "movie-trailer";
 import "./Row.css";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
@@ -34,7 +34,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     if (trailerUrl) {
       setTrailerUrl('')
     } else {
-      movieTrailer(movie?.title || "")
+      movieTrailer(movie?.name || "")
         .then(url => {
           const urlParams = new URLSearchParams(new URL(url).search);
           setTrailerUrl(urlParams.get('v'));
